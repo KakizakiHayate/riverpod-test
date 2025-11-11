@@ -8,7 +8,11 @@
       "Bash(git branch:*)",
       "Bash(git flow init:*)",
       "Bash(git checkout:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Riverpod TODO app with CRUD operations\n\n- Setup Flutter project with Riverpod 2.6.1\n- Implement Todo model with immutable design\n- Create TodoNotifier with StateNotifierProvider for state management\n- Add CRUD operations (Create, Read, Update, Delete)\n- Implement filter functionality (All, Active, Completed)\n- Create TodoListScreen with filtering UI\n- Add TodoItem widget for individual todo display\n- Include add/edit/delete dialogs\n- Setup git-flow structure with main and develop branches\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
